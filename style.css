@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -39,4 +39,34 @@ a{
 }
 .container p{
     width: 500px;
+}
+.recipes{
+   margin-left: 25%;
+   margin-right: 25%;
+   text-align: center;
+    
+}
+
+.bottom-bar{
+    width: 58%;
+   
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    height: 200px;
+}
+.gray{
+    color: dimgrey;
+}
+#image{
+    box-shadow: 10px 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+h3,p{
+    text-align: left;
+    margin-left: 5px;
 }
